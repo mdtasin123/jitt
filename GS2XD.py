@@ -1027,9 +1027,7 @@ def follow(self,coki):
             session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
         else:
             pass
-
-
-
+            
     def __pler_(self):
         os.system('clear')
         print (logo4)
