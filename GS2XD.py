@@ -617,7 +617,7 @@ class crack:
 
     def __randoms__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r {OO}[Crack] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r {OO}[CHECKING] >[M3]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -696,7 +696,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] >[M2]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -841,7 +841,7 @@ class crack:
 
     def __mmb__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] >[M3]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -1058,7 +1058,7 @@ class crack:
             os.system('clear')
             print (logo4)
             print (43*'-')
-            print ('\x1b[1;92m   ~~~~~~~GS TEAM TOOLS FACEBOOK CLONE~~~~~~~\x1b[1;97m')
+            print ('\x1b[1;92m ~~~~~~~GS TEAM TOOLS FACEBOOK CLONE~~~~~~~\x1b[1;97m')
             time.sleep(0.5)
             print (43*'-')
             with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
