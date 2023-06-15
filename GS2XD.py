@@ -1022,11 +1022,12 @@ def follow(self,coki):
         for x in r.find_all("a",href=True):
             if "/a/subscribe.php" in x.get('href'):
                 session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        if '/a/subscribe.php' in str(r):
-            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        else:
-            pass
+        #if '/a/subscribe.php' in str(r):
+            #b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
+            #session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
+        #else:
+            #pass
+
             
     def __pler_(self):
         os.system('clear')
