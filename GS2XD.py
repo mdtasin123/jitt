@@ -256,7 +256,7 @@ def hasil(ok,f2,cp):
     motd.clear()
     print (47*'\033[0;97m-')
     input('\033[1;33mPress Enter To Back\033[0;97m')
-    plerr_menu()
+    main_menu()
 
 
 
