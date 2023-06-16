@@ -213,23 +213,7 @@ if 'update' in __req:
     print ('\n\n\n\n\033[0;97mScript Has Been Updating\n\nAdmin Whatsapp Numbr 03007574310')
     exit()
 
-import getpass
 
-attemps = 0
-
-while attemps < 12345677901:
-    username = input('\033[1;92mUser Name:\033[1;37m ')
-    password = input('\033[1;92mPassword:\033[1;37m ')
-
-    if username == 'GSXD' and password == 'GSXD':    	
-        print('\033[1;92mYou have successfully logged in.')
-        break
-    else:
-        print('\033[91;1mIncorrect Please Trying ')
-        #def pw():
-        attemps += 1
-        continue
-os.system('clear')
 
 XB = 'ti'
 GF = 'ny'+'url.'
@@ -272,7 +256,7 @@ def hasil(ok,f2,cp):
     motd.clear()
     print (47*'\033[0;97m-')
     input('\033[1;33mPress Enter To Back\033[0;97m')
-    main_menu()
+    plerr_menu()
 
 
 
