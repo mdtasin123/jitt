@@ -869,7 +869,7 @@ class crack:
                     'fb_api_req_friendly_name':'authenticate',
                     'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
                     'api_key':'6387c5ffb66b86f0de58e1326fcab036',
-                    'access_token':'438142079694454|a8cf132f-9b7b-4f6d-99da-47cc8c206d6d'
+                    'access_token':'438142079694454|a8cf132f9b7b4f6d99da47cc8c206d6d'
                 }
                 head={
                     'x-fb-connection-quality':'EXCELLENT',
@@ -884,7 +884,7 @@ class crack:
                     'x-fb-net-hni':str(random.randint(2e4,4e4)),
                     'x-fb-rmd':'cached=0;state=NO_MATCH',
                     'x-fb-request-analytics-tags':'unknown',
-                    'authorization':'OAuth 438142079694454|a8cf132f-9b7b-4f6d-99da-47cc8c206d6d',
+                    'authorization':'OAuth 438142079694454|a8cf132f9b7b4f6d99da47cc8c206d6d',
                     'content-type':'application/x-www-form-urlencoded',
                     'x-fb-friendly-name':'authenticate'
                 }
