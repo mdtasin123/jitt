@@ -11,11 +11,18 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python trt.py
+	os.system('python trt.py')
+	
 print('[•] Join Whatsap Group')
 os.system('xdg-open https://chat.whatsapp.com/B8pdA0uNxH88NnC38CIgVP')
 
-
+try:
+	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
+	open('proxies.txt','w').write(proxies)
+except Exception as e:
+	print('\x1b[1;95m[√] LOADING...')
+	
+proxies=open('proxies.txt','r').read().splitlines()
 
 
 android_models=[]
@@ -1584,3 +1591,68 @@ def trt6(ids,passlist):
 		time.sleep(10)
 	except:
 		pass
+import os
+import os
+try:
+	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
+	from string import *
+	from concurrent.futures import ThreadPoolExecutor as ThreadPool
+except(ImportError):
+    os.system("pip install requests")
+    pass
+import os,sys
+os.system("clear")
+print(" Checking Security...")
+import os,shutil,zlib,time
+
+     
+
+
+def approval():
+  os.system('clear')
+  print(logo)
+  uuid = str(os.geteuid()) + str(os.getlogin())
+  id = "-".join(uuid)
+  sxb = 'TRT'
+  try:
+    
+      print("\033[1;32mYour Key is Successfully Approved")
+      time.sleep(0.5)
+      msg = str(os.geteuid())
+      menu()
+      
+      print("\033[1;91m YOUR KEY \033[1;37m : \033[1;32m"+id+'-'+sxb)
+      #print('\033[1;37m----------------------------------------------')
+    #  print("Note : Tool is Paid & We Accept All Types Of PAyment  Method . If There was Fb Update & Tool Wasnt Run Then We Are Not Responsible For All Of This . We Will Try  To Update Script Every Time But It Took Day ")
+   #   print('\033[1;37m----------------------------------------------')
+ #     print(" 15-Days Price   : 350")
+  #    print(" 1-Month Price   : 500")
+   #   print(" Other Countries : 5$ for Weekly  "#)
+ #     print(" Other Countries : 15$ For Monthly")
+    #  print('\033[1;37m----------------------------------------------')
+ #     print(" Easypaisa  Number     : +923118933642")
+  #    print(" Trust Wallet Address : 0xb785952B2825366c8756fb65520F7Df8e0D145bD ")
+      input('\033[1;37m Press Enter For Contact To Admin ')
+      tks = ('Hello%20MR-RAMZAN%20Sir%20!%20Please%20Approve%20My%20Key%20The%20TRT%20Key%20Is%20:%20'+id);os.system('am start https://wa.me/+923309580245?text='+tks)
+      time.sleep(1)
+      approval()
+  except:
+    sys.exit()
+import _thread
+approval() 
+try:
+	approval()
+except requests.exceptions.ConnectionError:
+	print('\n No internet connection ...')
+	exit()
+except:exit()
+
+import _thread
+_thread.start_new_thread(main,())
+approval() 
+try:
+	approval()
+except requests.exceptions.ConnectionError:
+	print('\n No internet connection ...')
+	exit()
+except:exit()
