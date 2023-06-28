@@ -11,7 +11,13 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	
+	os.system('python trt.py
+print('[•] Join Whatsap Group')
+os.system('xdg-open https://chat.whatsapp.com/B8pdA0uNxH88NnC38CIgVP')
+
+
+
+
 android_models=[]
 try:
 	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
