@@ -11,20 +11,7 @@ try:
 except ModuleNotFoundError: 
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
-	os.system('python trt.py')
 	
-print('[•] Join Whatsap Group')
-os.system('xdg-open https://chat.whatsapp.com/B8pdA0uNxH88NnC38CIgVP')
-
-try:
-	prox= requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/proxies.txt').text
-	open('proxies.txt','w').write(proxies)
-except Exception as e:
-	print('\x1b[1;95m[√] LOADING...')
-	
-proxies=open('proxies.txt','r').read().splitlines()
-
-
 android_models=[]
 try:
 	xx = requests.get('https://raw.githubusercontent.com/Ramxantanha/data/main/strings.txt').text.splitlines()
