@@ -63,7 +63,12 @@ except:
 try:
     os.mkdir('/sdcard/ids')
 except:
+    pass  
+try:
+    os.mkdir('/sdcard/GS2XD')
+except:
     pass
+
 EE = '\r\r\x1b[38;5;208m'
 PP = '\x1b[1;37m'
 MM = '\x1b[1;31m'
