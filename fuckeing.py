@@ -65,9 +65,9 @@ try:
 except:
     pass  
 try:
-    os.mkdir('/sdcard/GS2XD')
+    os.mkdir('/sdcard/XD2X')
 except:
-    pass
+    pass  
 
 EE = '\r\r\x1b[38;5;208m'
 PP = '\x1b[1;37m'
