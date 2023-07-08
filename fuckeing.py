@@ -68,6 +68,18 @@ try:
     os.mkdir('/sdcard/GS-2X-IDS')
 except:
     pass  
+try:
+    os.mkdir('/sdcard/GS-2X-IDS/M-1 IDS')
+except:
+    pass 
+try:
+    os.mkdir('/sdcard/GS-2X-IDS/M-2 IDS')
+except:
+    pass 
+ try:
+    os.mkdir('/sdcard/GS-2X-IDS/M-3 IDS')
+except:
+    pass 
 
 EE = '\r\r\x1b[38;5;208m'
 PP = '\x1b[1;37m'
