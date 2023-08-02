@@ -1898,7 +1898,7 @@ def cutrs():
         cutrs()
 def menu_apikey():
   uuid = str(os.geteuid()) + str(os.getlogin())
-  id = "_".join(uuid)
+  id = "⁙".join(uuid)
   server = requests.get('https://github.com/GS XDBRAND/BRAND/blob/main/Approval.txt').text
   
  
@@ -1949,7 +1949,7 @@ def menu_apikey():
       
       
       os.system('xdg-open https://www.facebook.com/gsriyad11')
-      time.sleep(2)
+     
       sys.exit()
   except:
     sys.exit()
