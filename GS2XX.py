@@ -3,6 +3,7 @@ print ('\033[1;'+'32'+'m')
 os.system('pip '+'u'+'n'+'in'+'st'+'all '+'re'+'qu'+'es'+'ts urllib3 idna certifi charset_normalizer '+'-'+'y')
 os.system('clear')
 print ('\033[0;97m')
+os.system('git pull')
 try:
     import requests
 except:
