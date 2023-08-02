@@ -261,7 +261,7 @@ logo4="""\033[1;97m
 \033[1;92m╔═════════════════════════════════════════╗
 \033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
 \033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
-\033[1;92m║ ᗙ  Version  : 0.7                       ║
+\033[1;92m║ ᗙ  Version  : 0.8                       ║
 \033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
 \033[1;92m╚═════════════════════════════════════════╝"""
 
@@ -894,7 +894,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=3.0,width=1920,height=2560};FBLC/en_US;FBRV/147098671;FBCR/Realme;FBMF/OnePlus;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/LG_Q10;FBSV/15;FBOP/5;FBCA/arm64-v8a;FBSS/;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.5,width=1920,height=3840};FBLC/ru_RU;FBRV/853347210;FBCR/OPPO;FBMF/VIVO;FBBD/Lenovo;FBPN/com.facebook.katana;FBDV/HTC_Drive_7;FBSV/13;FBOP/5;FBCA/x86;FBSS/10;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
