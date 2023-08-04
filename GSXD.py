@@ -894,7 +894,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=1920,height=1280};FBLC/es_ES;FBRV/410835987;FBCR/OPPO;FBMF/VIVO;FBBD/Huawei;FBPN/com.facebook.katana;FBDV/iPhone12,8;FBSV/16;FBOP/4;FBCA/x86_64;FBSS/13;]
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=1920,height=1280};FBLC/es_ES;FBRV/410835987;FBCR/OPPO;FBMF/VIVO;FBBD/Huawei;FBPN/com.facebook.katana;FBDV/iPhone12,8;FBSV/16;FBOP/4;FBCA/x86_64;FBSS/13;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
