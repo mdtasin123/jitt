@@ -40,6 +40,27 @@ class TwoFactorCloner:
         get_file = input("Enter file path: ")
         try:
             get_file_info = open(get_file, 'r').read().splitlines()
+            os.system("clear")
+            
+         	
+            
+            print("""\033[1;37m
+  ██████╗ ███████╗    ██████╗     ██╗  ██╗
+██╔════╝ ██╔════╝    ╚════██╗    ╚██╗██╔╝
+██║  ███╗███████╗     █████╔╝     ╚███╔╝ 
+██║   ██║╚════██║    ██╔═══╝      ██╔██╗ 
+╚██████╔╝███████║    ███████╗    ██╔╝ ██╗
+ ╚═════╝ ╚══════╝    ╚══════╝    ╚═╝  ╚═╝
+\033[1;92m╔═════════════════════════════════════════╗
+\033[1;92m║ ᗙ  Owner    : MD RIYAD                  ║
+\033[1;92m║ ᗙ  Facebook : MD.RIYAD                  ║
+\033[1;92m║ ᗙ  Version  : 1.0                       ║
+\033[1;92m║ ᗙ  Team     : GS POWER                  ║ 
+\033[1;92m╚═════════════════════════════════════════╝
+--------------------------------------------
+OLD NEW IDS AUTO 2F / UID|PASS|COOKIS.TXT
+--------------------------------------------""")
+ 		
         except FileNotFoundError:
             exit("File not found")
 
@@ -60,7 +81,7 @@ class TwoFactorCloner:
             if '[2F]' in data:
                 datax = data.replace("[2F] ", "")
                 self.divider()
-                print(f"{self.GREEN} [Successful 2F]: {datax} ")
+                print(f"{self.GREEN}[Successful]: {datax}")
                 self.divider()
                 #print(f"\03#3[1;37mTotal Checked {len(self.GREEN)} uid\n2F added: \033[1;32m{str(datax)}")
                 #print(f"\033[1;#37UID|PASS {self.GREEN} \n2F added: \033[1;32m{datax}")
