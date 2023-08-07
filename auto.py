@@ -93,34 +93,6 @@ def clear():
  Contact: +923203714588
  Version: 1.6
 \033[1;37m------------------------------------------""") 
-try:
-    clear()
-    print(' Checking For Updates....')
-    linex()
-    
-    if "Version-1.5" in response:
-        print(" Already Up To Date...")
-        linex()
-        print(' Checking For Approval....')
-        linex()
-        if kex in response:
-            print('\033[1;32m Your Key is Approved....\033[1;37m');time.sleep(2)
-        elif "Trail-30min" in response:
-            print('\033[1;36m Enjoy Free Trial ....\033[1;37m');time.sleep(2)
-        else:
-            print("\033[1;31m Read note first! ")
-            linex()
-            print(" You cannot run this tool without AKING permeations \n Note: Agar Tool mai Koi Masla Aata HA To Me Jald Se Jald Try Kronga Fix Krne Ke Agr Nhi Hota To May Be kujh time lag jya fix krne me!\n payment krne ka bad return nhi hoge agr buy krna ha to ok else skip,exit")
-            linex()
-            print(" Your key: "+fkeyx);subprocess.check_output(["am", "start", "https://api.whatsapp.com/send?phone=+923203714588&text="+(" Hi AKING sir i want Buy Auto Create Ids Tool Please Approve My Token\n Token:- "+ fkeyx)]);time.sleep(2)
-            exit('\n Run:  python create.py')
-            sys.exit()
-    else:
-        print(' Update done successfully wait for setup! ')
-        time.sleep(2)
-        os.system('rm -rf AutoCreate && python create.py')
-        exit()
-except Exception as e:exit('\n Network connection error '+e)
 def cvt(st,ran):
     try:
         if st == 'ok': cookie = ('c_user=%s;xs=%s;fr=%s;datr=%s;'%(ran['c_user'],ran['xs'],ran['fr'],ran['datr']))
