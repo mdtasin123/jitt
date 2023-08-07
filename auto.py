@@ -67,7 +67,17 @@ def random_ua():
     ua6 = f'Mozilla/5.0 (Linux; Android {os_ver}; {dv_typ} Build/{bl_typ}.{dv_ver}.00{sd_ver}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/{ch_ver} Mobile Safari/537.36'
     ua = random.choice([ua1,ua2,ua3,ua4,ua5,ua6])
     return(ua)
-
+myid=uuid.uuid4().hex[:5].upper()
+try:
+    key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
+except:
+    kok=open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'w');kok.write(myid);kok.close()
+uid = os.getuid()
+key1 = open('/data/data/com.termux/files/usr/bin/.mrakingxxx-cov', 'r').read()
+kex=(f"AKING-XD~CREATE:{uid}TS{key1}110E==")
+key2 = base64.b64encode(str(f"{kex}").encode('utf-8'))
+key=(f"{key2}")
+fkeyx = key.replace("b'","").replace("'","")
 def linex():
     print('\033[1;37m------------------------------------------')
 def clear():
@@ -87,14 +97,7 @@ try:
     clear()
     print(' Checking For Updates....')
     linex()
-    buffer = BytesIO()
-    c = pycurl.Curl()
-    c.setopt(c.URL, lik)
-    c.setopt(c.WRITEDATA, buffer)
-    c.perform()
-    c.close()
-    body = buffer.getvalue().decode('utf-8')
-    response = body
+    
     if "Version-1.5" in response:
         print(" Already Up To Date...")
         linex()
